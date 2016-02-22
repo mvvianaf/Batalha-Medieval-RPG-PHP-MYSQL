@@ -1,0 +1,99 @@
+@CHARSET "ISO-8859-1";
+*{
+	margin:0;
+	padding:0;
+	font-family: Arial;
+}
+/* INICIO - MENU */
+header{
+	width:100%;
+	height: 60px;
+	background:#282c39;
+}
+header ul{
+	padding:0;
+	margin:0;
+	width:900px;
+	margin: 0 auto;
+}
+header ul li{
+	display: inline;
+}
+header ul li a{
+	color: white;
+	padding-top: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	display: inline-block;
+}
+header ul li a:hover{
+	color: #bdc3c7;
+}
+/* FIM - MENU */
+/* INICIO - ADM */
+#adm{
+	width:900px;
+	margin: 0 auto;
+	display: table;
+	margin-top:20px;
+}
+#adm .user h3{
+	text-align: center;
+	padding: 10px;
+}
+#adm .user form label{
+	font-size:11px;
+	text-transform: uppercase;
+}
+#adm .user form input[type='text'],input[type='number']{
+	width: 160px;
+}
+#adm .user form select{
+	width: 164px;
+}
+#adm .user form input[type='submit'],input[type='button']{
+	height: 30px;
+	width:100%;
+}
+#adm ul li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 29px;
+	background: #ecf0f1;
+}
+#adm ul li:last-child{
+	margin-right:0;
+}
+#adm ul li:hover{
+	color: white;
+	background: #282c39;
+}
+#adm .novo{
+	background-color: #7f8c8d;
+} 
+/* FIM - ADM */
+/* INICIO - JOGO */
+.jogo{
+	width: 100%;
+	text-align: center;
+}
+.jogo td,th{
+	font-size: 14px;
+	padding:5px;
+}
+.jogo select{
+	width:100%;
+	padding: 5px;
+}
+.jogo input{
+	width:150px;
+	padding:5px;
+}
+.jogo .vencedor{
+	font-size: 30px;
+	padding: 30px;
+	color: #e74c3c;
+}
+/* FIM - JOGO */
